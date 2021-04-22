@@ -1,5 +1,5 @@
 # x_to_json
-Json library implementation for c++
+Json parsing/construction library written in c++
 
 ## Sidenote and warnings
 This project was originally created as an exercise in writing your own portable library and using it in another project. I chose json specifically because it's required for virtually everything on the web and does not have native support in most languages. 
