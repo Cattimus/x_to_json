@@ -6,6 +6,10 @@ This project was originally created as an exercise in writing your own portable 
 
 That being said, using this code in production is likely a very bad idea. While I've done my best to prevent harmful mistakes, I haven't covered every possible case or every possible error. You shouldn't be using this library in any situation where you may face any kind of security threats, since it will likely be trivial to exploit.
 
+
+# Documentation
+[Access the documentation here](https://github.com/Cattimus/x_to_json/wiki)
+
 ## Build instructions
 
 If you are familiar with cmake and build systems in general, feel free to ignore these instructions and build in any way you see fit. This library doesn't require any special linking and only uses pieces of the C++ and C standard library, so most compilers should work just fine.
@@ -35,6 +39,3 @@ You should now have an output directory called "x_to_json" that contains the fil
 5. To build the project, run `make`
 
 You should now have an output directory called "x_to_json" that contains the files necessary for linking
-
-# Documentation
-[Access the documentation here](https://github.com/Cattimus/x_to_json/wiki)
