@@ -35,3 +35,6 @@ You should now have an output directory called "x_to_json" that contains the fil
 5. To build the project, run `make`
 
 You should now have an output directory called "x_to_json" that contains the files necessary for linking
+
+# Documentation
+[Access the documentation here](https://github.com/Cattimus/x_to_json/wiki)
