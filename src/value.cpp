@@ -262,7 +262,7 @@ string value::to_string()
     switch(type)
     {
         case json_type::none:
-            return "value is empty";
+            return "null";
             break;
 
         case json_type::number:
