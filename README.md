@@ -1,6 +1,9 @@
 # x_to_json
 Json parsing/construction library written in c++
 
+## Prebuilt binaries
+[See the releases page here for the latest builds](https://github.com/Cattimus/x_to_json/releases)
+
 ## Documentation
 [Access the documentation here](https://github.com/Cattimus/x_to_json/wiki)
 - [A brief explanation of JSON](https://github.com/Cattimus/x_to_json/wiki/A-brief-explanation-of-JSON)
