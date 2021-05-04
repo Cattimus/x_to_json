@@ -1,5 +1,10 @@
 #include "x_to_json.h"
 
+static void indent(int level, string* to_indent);
+static void remove_indent(string* to_indent);
+static bool is_num(string input);
+static bool is_decimal(string input);
+
 //adds indentations and newlines to single line json
 string beautify_json(string to_beautify)
 {
