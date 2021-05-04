@@ -3,10 +3,21 @@
 #include "value.h"
 #include "json_object.h"
 
+//MSVC DLL export strangeness
+#ifdef _MSC_VER
+    #ifdef LIBRARY_EXPORT
+        #define EXPORT __declspec(dllexport)
+    #else
+        #define EXPORT __declspec(dllimport)
+    #endif
+#else
+    #define EXPORT
+#endif
+
 class value;
 class json_object;
 
-class json_array
+class EXPORT json_array
 {
 private:
     //change this to map
