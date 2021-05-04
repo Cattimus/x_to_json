@@ -11,6 +11,17 @@ using namespace std;
 #include "json_object.h"
 #include "json_array.h"
 
+//MSVC DLL export strangeness
+#ifdef _MSC_VER
+    #ifdef LIBRARY_EXPORT
+        #define EXPORT __declspec(dllexport)
+    #else
+        #define EXPORT __declspec(dllimport)
+    #endif
+#else
+    #define EXPORT
+#endif
+
 class json_object;
 class json_array;
 class value;
@@ -27,9 +38,9 @@ class value;
 */
 
 //append to an existing string (useful in to_string() operations)
-void operator+=(string& to_append, value& input);
+EXPORT void operator+=(string& to_append, value& input);
 
-class value
+class EXPORT value
 {
 private:
     //this is the pointer where data is stored
