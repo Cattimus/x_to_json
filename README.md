@@ -15,3 +15,6 @@ Json parsing/construction library written in c++
 This project was originally created as an exercise in writing your own portable library and using it in another project. I chose json specifically because it's required for virtually everything on the web and does not have native support in most languages. 
 
 That being said, using this code in production is likely a very bad idea. While I've done my best to prevent harmful mistakes, I haven't covered every possible case or every possible error. You shouldn't be using this library in any situation where you may face any kind of security threats, since it will likely be trivial to exploit.
+
+# NOTE
+This project is no longer under active development and has been replaced by [JDPL](https://github.com/Cattimus/JDPL).
